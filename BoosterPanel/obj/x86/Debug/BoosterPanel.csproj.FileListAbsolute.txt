@@ -1,0 +1,15 @@
+C:\Users\Vicio\source\repos\BoosterPanel\BoosterPanel\bin\x86\Debug\BoosterPanel.exe.config
+C:\Users\Vicio\source\repos\BoosterPanel\BoosterPanel\bin\x86\Debug\BoosterPanel.exe
+C:\Users\Vicio\source\repos\BoosterPanel\BoosterPanel\bin\x86\Debug\BoosterPanel.pdb
+C:\Users\Vicio\source\repos\BoosterPanel\BoosterPanel\obj\x86\Debug\BoosterPanel.csprojAssemblyReference.cache
+C:\Users\Vicio\source\repos\BoosterPanel\BoosterPanel\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Vicio\source\repos\BoosterPanel\BoosterPanel\obj\x86\Debug\App.g.cs
+C:\Users\Vicio\source\repos\BoosterPanel\BoosterPanel\obj\x86\Debug\BoosterPanel_MarkupCompile.cache
+C:\Users\Vicio\source\repos\BoosterPanel\BoosterPanel\obj\x86\Debug\BoosterPanel_MarkupCompile.lref
+C:\Users\Vicio\source\repos\BoosterPanel\BoosterPanel\obj\x86\Debug\MainWindow.baml
+C:\Users\Vicio\source\repos\BoosterPanel\BoosterPanel\obj\x86\Debug\BoosterPanel.g.resources
+C:\Users\Vicio\source\repos\BoosterPanel\BoosterPanel\obj\x86\Debug\BoosterPanel.Properties.Resources.resources
+C:\Users\Vicio\source\repos\BoosterPanel\BoosterPanel\obj\x86\Debug\BoosterPanel.csproj.GenerateResource.cache
+C:\Users\Vicio\source\repos\BoosterPanel\BoosterPanel\obj\x86\Debug\BoosterPanel.csproj.CoreCompileInputs.cache
+C:\Users\Vicio\source\repos\BoosterPanel\BoosterPanel\obj\x86\Debug\BoosterPanel.exe
+C:\Users\Vicio\source\repos\BoosterPanel\BoosterPanel\obj\x86\Debug\BoosterPanel.pdb
