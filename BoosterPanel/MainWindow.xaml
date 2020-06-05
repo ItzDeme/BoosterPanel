@@ -36,7 +36,7 @@
         <Button x:Name="resetButt4" Content="Reset" HorizontalAlignment="Left" Margin="360,177,0,0" VerticalAlignment="Top" Width="75" Click="resetButt4_Click"/>
         <Button x:Name="copyClip1" Content="Copy to ClipBoard" HorizontalAlignment="Left" Margin="283,213,0,0" VerticalAlignment="Top" Width="152" Click="copyClip1_Click"/>
         <Label x:Name="advertLabel" Content="Advertisement" HorizontalAlignment="Left" Margin="10,273,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Button x:Name="addClientsButt" Content="#" HorizontalAlignment="Left" Margin="131,276,0,0" VerticalAlignment="Top" Width="22" Height="26" Click="addClientsButt_Click"/>
+        <Button x:Name="addClientsButt" Content="+" HorizontalAlignment="Left" Margin="131,276,0,0" VerticalAlignment="Top" Width="22" Height="26" Click="addClientsButt_Click"/>
         <Label x:Name="clientsLabel" Content="1" HorizontalAlignment="Left" Margin="158,274,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="textBoxString" HorizontalAlignment="Left" Height="37" Margin="19,313,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="366" KeyDown="textBoxString_KeyDown" MaxLines="2" FontSize="12" />
         <Button x:Name="textBoxEdit" Content="Edit" HorizontalAlignment="Left" Margin="401,311,0,0" VerticalAlignment="Top" Width="34" Click="textBoxEdit_Click"/>
@@ -50,5 +50,8 @@
             </FlowDocument>
         </RichTextBox>
         <Label Content="V2" HorizontalAlignment="Left" Margin="113,362,0,0" VerticalAlignment="Top" Opacity="0.6"/>
+        <Button x:Name="minusClientsButt" Content="-" HorizontalAlignment="Left" Margin="184,276,0,0" VerticalAlignment="Top" Width="22" Height="26" Click="minusClientsButt_Click" FontSize="14"/>
+        <Button x:Name="addClientsButt5" Content="+5" HorizontalAlignment="Left" Margin="234,276,0,0" VerticalAlignment="Top" Width="22" Height="26" Click="addClientsButt5_Click" FontSize="15"/>
+        <Button x:Name="minusClientsButt5" Content="-5" HorizontalAlignment="Left" Margin="261,276,0,0" VerticalAlignment="Top" Width="22" Height="26" Click="minusClientsButt5_Click" FontSize="15"/>
     </Grid>
 </Window>

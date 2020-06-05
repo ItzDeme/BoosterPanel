@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -46,6 +47,13 @@ namespace BoosterPanel
         {
             runNumber1 += .5;
             labelRun1.Content = runNumber1.ToString();
+            DateTime dateTime = DateTime.Now;
+            
+
+            StreamWriter File = new StreamWriter("Booster Panel Log.txt", true);
+            File.WriteLine(dateTime + ": " + "Run: " + runNumber1 + " Name: " + textName1);
+            File.Close();
+
         }
 
         private void buttonMinusRun1_Click(object sender, RoutedEventArgs e)
@@ -58,13 +66,23 @@ namespace BoosterPanel
             }
             labelRun1.Content = runNumber1.ToString();
 
-            
+            DateTime dateTime = DateTime.Now;
+            StreamWriter File = new StreamWriter("Booster Panel Log.txt", true);
+            File.WriteLine(dateTime + ": " + "Run: " + runNumber1 + " Name: " + textName1);
+            File.Close();
+
+
         }
 
         private void buttonPlusRun2_Click(object sender, RoutedEventArgs e)
         {
             runNumber2 += .5;
             labelRun2.Content = runNumber2.ToString();
+
+            DateTime dateTime = DateTime.Now;
+            StreamWriter File = new StreamWriter("Booster Panel Log.txt", true);
+            File.WriteLine(dateTime + ": " + "Run: " + runNumber2 + " Name: " + textName2);
+            File.Close();
         }
 
         private void buttonMinusRun2_Click(object sender, RoutedEventArgs e)
@@ -75,12 +93,21 @@ namespace BoosterPanel
                 runNumber2 = 0;
             }
             labelRun2.Content = runNumber2.ToString();
+            DateTime dateTime = DateTime.Now;
+            StreamWriter File = new StreamWriter("Booster Panel Log.txt", true);
+            File.WriteLine(dateTime + ": " + "Run: " + runNumber2 + " Name: " + textName2);
+            File.Close();
         }
 
         private void buttonPlusRun3_Click(object sender, RoutedEventArgs e)
         {
             runNumber3 += .5;
             labelRun3.Content = runNumber3.ToString();
+
+            DateTime dateTime = DateTime.Now;
+            StreamWriter File = new StreamWriter("Booster Panel Log.txt", true);
+            File.WriteLine(dateTime + ": " + "Run: " + runNumber3 + " Name: " + textName3);
+            File.Close();
         }
 
         private void buttonMinusRun3_Click(object sender, RoutedEventArgs e)
@@ -91,12 +118,22 @@ namespace BoosterPanel
                 runNumber3 = 0;
             }
             labelRun3.Content = runNumber3.ToString();
+
+            DateTime dateTime = DateTime.Now;
+            StreamWriter File = new StreamWriter("Booster Panel Log.txt", true);
+            File.WriteLine(dateTime + ": " + "Run: " + runNumber3 + " Name: " + textName3);
+            File.Close();
         }
 
         private void buttonPlusRun4_Click(object sender, RoutedEventArgs e)
         {
             runNumber4 += .5;
             labelRun4.Content = runNumber4.ToString();
+
+            DateTime dateTime = DateTime.Now;
+            StreamWriter File = new StreamWriter("Booster Panel Log.txt", true);
+            File.WriteLine(dateTime + ": " + "Run: " + runNumber4 + " Name: " + textName4);
+            File.Close();
         }
 
         private void buttonMinusRun4_Click(object sender, RoutedEventArgs e)
@@ -107,6 +144,11 @@ namespace BoosterPanel
                 runNumber4 = 0;
             }
             labelRun4.Content = runNumber4.ToString();
+
+            DateTime dateTime = DateTime.Now;
+            StreamWriter File = new StreamWriter("Booster Panel Log.txt", true);
+            File.WriteLine(dateTime + ": " + "Run: " + runNumber4 + " Name: " + textName4);
+            File.Close();
         }
 
         private void resetButt1_Click(object sender, RoutedEventArgs e)
@@ -273,10 +315,7 @@ namespace BoosterPanel
         {
             addClients += 1;
 
-            if(addClients > 4)
-            {
-                addClients = 1;
-            }
+            
             clientsLabel.Content = addClients;
 
       
@@ -346,6 +385,36 @@ namespace BoosterPanel
         {
             System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo(e.Uri.AbsoluteUri));
             e.Handled = true;
+        }
+
+        private void minusClientsButt_Click(object sender, RoutedEventArgs e)
+        {
+            addClients -= 1;
+            if(addClients < 1)
+            {
+                addClients = 1;
+            }
+
+            clientsLabel.Content = addClients;
+        }
+
+        private void addClientsButt5_Click(object sender, RoutedEventArgs e)
+        {
+            addClients += 5;
+
+
+            clientsLabel.Content = addClients;
+        }
+
+        private void minusClientsButt5_Click(object sender, RoutedEventArgs e)
+        {
+            addClients -= 5;
+            if (addClients < 1)
+            {
+                addClients = 1;
+            }
+
+            clientsLabel.Content = addClients;
         }
     }
 }
